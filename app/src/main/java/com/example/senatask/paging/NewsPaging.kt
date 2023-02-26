@@ -20,7 +20,6 @@ class NewsPaging (val newsApi: NewsApi) : PagingSource<Int, Result>(){
 
             val apikey:String=Constants.API_KEY
             val data=newsApi.getNews(apikey)
-          //  Log.e("bnews",data.body().toString())
             LoadResult.Page(
                 data= data.body()?.results!!,
                 prevKey = if(page==1) null else page-1,

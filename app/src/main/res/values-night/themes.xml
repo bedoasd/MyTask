@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.SenaTask" parent="Theme.AppCompat.Light">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#FFEB3B</item>
+        <item name="colorPrimaryVariant">#8BC34A</item>
+        <item name="colorOnPrimary">#FF5722</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
