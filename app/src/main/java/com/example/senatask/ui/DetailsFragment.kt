@@ -53,7 +53,7 @@ class DetailsFragment : Fragment() {
         val imageUrl=article.media[0].media_metadata[0].url
         Glide.with(iv_article).load(imageUrl).into(iv_article)
         binding.tvTitle.text = article.title
-        binding.tvPublishedBy.text = article.published_date
+        binding.tvPublishedBy.text = article.byline
         binding.tvDate.text = article.published_date
 
         binding.btnShare.setOnClickListener {
